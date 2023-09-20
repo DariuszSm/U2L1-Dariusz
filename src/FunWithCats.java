@@ -23,19 +23,17 @@ public class FunWithCats {
           look inside the Cat class to find these methods so you can see what happens!
           can you determine what has changed in cat 1?
        */
-        //    cat1.goToSleep();
-        //    cat1.printCatInfo();
+            cat1.goToSleep();
+            cat1.printCatInfo();
 
 
         // Exercise 2. add code below to wake up both cat1 AND cat2 and print the updated info for each;
         // you will need to use the wakeUp method and the printCatInfo method
 
-
-
-
-
-
-
+            cat1.wakeUp();
+            cat2.wakeUp();
+            cat1.printCatInfo();
+            cat2.printCatInfo();
 
 
        /* Exercise 3. Write code below to create another Cat object
@@ -46,21 +44,12 @@ public class FunWithCats {
           them back up, etc.
        */
 
-
-
-
-
-
-
-
-
-
-
+        Cat cat122 = new Cat("white", "Bart", 6, false);
 
        /* Exercise 4. Uncomment the line below and see what happens when you run the program. Why?
           FIX THE ERROR and run it again!  Be sure you get ALL parameters AND match the types!
        */
-        //    Cat cat3 = new Cat("gray", 15, false);
+            Cat cat3 = new Cat("gray", "Nemu",15, false);
 
 
 
